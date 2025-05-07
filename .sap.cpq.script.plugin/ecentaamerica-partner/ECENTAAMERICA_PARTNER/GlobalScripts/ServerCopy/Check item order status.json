@@ -12,13 +12,13 @@
 	"events": [
 		{
 			"filter": 0,
-			"rank": 3,
+			"rank": 4,
 			"systemEventId": 2,
 			"filterName": null
 		},
 		{
 			"filter": 0,
-			"rank": 3,
+			"rank": 4,
 			"systemEventId": 3,
 			"filterName": null
 		},

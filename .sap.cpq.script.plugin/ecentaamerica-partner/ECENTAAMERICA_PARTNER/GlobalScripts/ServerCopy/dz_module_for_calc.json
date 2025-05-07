@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": true,
+		"isCSRFProtected": false,
+		"systemId": "dz_module_for_calc_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}
