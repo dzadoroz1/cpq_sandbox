@@ -6,32 +6,20 @@
 		"endDate": "",
 		"isModule": false,
 		"isCSRFProtected": false,
-		"systemId": "ToroSetReelmasterPresence_cpq"
+		"systemId": "dz_read_prices_cpq"
 	},
 	"forceProxyGeneration": false,
 	"events": [
 		{
 			"filter": 0,
-			"rank": 5,
+			"rank": 1,
 			"systemEventId": 2,
 			"filterName": null
 		},
 		{
 			"filter": 0,
-			"rank": 5,
-			"systemEventId": 3,
-			"filterName": null
-		},
-		{
-			"filter": 0,
-			"rank": 3,
-			"systemEventId": 19,
-			"filterName": null
-		},
-		{
-			"filter": 0,
 			"rank": 1,
-			"systemEventId": 41,
+			"systemEventId": 3,
 			"filterName": null
 		}
 	]
