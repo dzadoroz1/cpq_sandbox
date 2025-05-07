@@ -1,0 +1,5 @@
+<script>
+    var customFields = ko.contextFor(document.getElementById('cartCustomFields')).$data.customFields();
+    var method_obj = customFields.find(field => field.name === "Program_Training_Method_dz");
+    var program_obj = customFields.find(field => field.name === "Pricing_Training_Program_dz");
+</script>
