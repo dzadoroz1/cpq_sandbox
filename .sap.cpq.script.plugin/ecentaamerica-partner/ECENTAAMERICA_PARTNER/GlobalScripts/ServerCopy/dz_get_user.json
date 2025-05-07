@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": false,
+		"isCSRFProtected": false,
+		"systemId": "dz_get_user_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}

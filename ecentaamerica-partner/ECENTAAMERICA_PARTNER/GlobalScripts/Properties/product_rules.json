@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "Toro Product rule controller. Handles all simple (visibility and required) rules that are a result of attribute value selections. ",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": true,
+		"isCSRFProtected": false,
+		"systemId": "product_trigger_controller_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}

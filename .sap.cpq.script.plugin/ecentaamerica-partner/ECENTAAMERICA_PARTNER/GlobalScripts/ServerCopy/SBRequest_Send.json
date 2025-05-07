@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": false,
+		"startDate": "",
+		"endDate": "",
+		"isModule": false,
+		"isCSRFProtected": false,
+		"systemId": "SBRequest_Send_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}

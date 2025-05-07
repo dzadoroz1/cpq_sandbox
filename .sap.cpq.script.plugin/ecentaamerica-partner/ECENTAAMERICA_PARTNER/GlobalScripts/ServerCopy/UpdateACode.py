@@ -1,0 +1,1 @@
+context.Quote.GetCustomField('ACode').Value = str(context.Quote.GetCustomField('Length of Contract').Value) + str(context.Quote.GetCustomField('Payment Frequency').Value)

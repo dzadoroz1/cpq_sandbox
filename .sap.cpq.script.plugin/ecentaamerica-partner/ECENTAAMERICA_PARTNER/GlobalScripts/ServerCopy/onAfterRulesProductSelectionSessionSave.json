@@ -1,0 +1,20 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": false,
+		"isCSRFProtected": false,
+		"systemId": "onAfterRulesProductSelectionSessionSave_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": [
+		{
+			"filter": 0,
+			"rank": 1,
+			"systemEventId": 25,
+			"filterName": null
+		}
+	]
+}

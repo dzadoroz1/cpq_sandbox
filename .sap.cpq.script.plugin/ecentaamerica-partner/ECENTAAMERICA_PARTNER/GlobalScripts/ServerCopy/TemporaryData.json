@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "Temporary Product Catalogue Data",
+		"active": false,
+		"startDate": "",
+		"endDate": "",
+		"isModule": true,
+		"isCSRFProtected": false,
+		"systemId": "TemporaryData_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}

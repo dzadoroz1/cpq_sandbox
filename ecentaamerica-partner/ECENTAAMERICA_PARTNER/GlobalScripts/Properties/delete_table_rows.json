@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": true,
+		"isCSRFProtected": false,
+		"systemId": "delete_table_rows_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}

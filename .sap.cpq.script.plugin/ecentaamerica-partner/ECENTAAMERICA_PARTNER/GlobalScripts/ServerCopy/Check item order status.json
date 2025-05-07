@@ -1,0 +1,38 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": false,
+		"isCSRFProtected": false,
+		"systemId": "Check_item_order_status_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": [
+		{
+			"filter": 0,
+			"rank": 3,
+			"systemEventId": 2,
+			"filterName": null
+		},
+		{
+			"filter": 0,
+			"rank": 3,
+			"systemEventId": 3,
+			"filterName": null
+		},
+		{
+			"filter": 0,
+			"rank": 2,
+			"systemEventId": 18,
+			"filterName": null
+		},
+		{
+			"filter": 0,
+			"rank": 2,
+			"systemEventId": 19,
+			"filterName": null
+		}
+	]
+}

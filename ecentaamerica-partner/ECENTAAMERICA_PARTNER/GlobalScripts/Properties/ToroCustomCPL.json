@@ -1,0 +1,13 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": false,
+		"isCSRFProtected": false,
+		"systemId": "ToroCustomCPL_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": []
+}

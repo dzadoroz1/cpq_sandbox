@@ -1,0 +1,26 @@
+{
+	"scriptDefinition": {
+		"description": "",
+		"active": true,
+		"startDate": "",
+		"endDate": "",
+		"isModule": false,
+		"isCSRFProtected": false,
+		"systemId": "CheckCustomAPS_cpq"
+	},
+	"forceProxyGeneration": false,
+	"events": [
+		{
+			"filter": 0,
+			"rank": 2,
+			"systemEventId": 51,
+			"filterName": null
+		},
+		{
+			"filter": 0,
+			"rank": 2,
+			"systemEventId": 52,
+			"filterName": null
+		}
+	]
+}
