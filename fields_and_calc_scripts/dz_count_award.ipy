@@ -1,0 +1,7 @@
+# MainItem - DZ_MSRP
+for item in context.AffectedItems:
+    msrp = item.GetCustomField("DZ_MSRP_2")
+    msrp_precent = item.GetCustomField("DZ_MSRP")
+    award = item.GetCustomField("DZ_AWARD_2")
+    if msrp_precent.Value and msrp.Value:
+        award.Value = msrp.Value * (100 - msrp_precent.Value) / 100
