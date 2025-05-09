@@ -1,5 +1,6 @@
+# MainItem - DZ_MSRP_2
 from dz_module_for_calc import count_ext
 
-for item in context.Quote.GetAllItems():
+for item in context.AffectedItems:
     ext_cf = item.GetCustomField("DZ_Ext_MSRP")
     ext_cf.Value = count_ext(item, "DZ_MSRP_2")
