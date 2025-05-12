@@ -7,13 +7,15 @@ if User.UserType.Name == "DZ_userType":
 					WHERE Part_number IN ('{}')'''.format(part_nums_str)
     prices = SqlHelper.GetList(sql_query)
     prices_dict = {p.Part_number: p for p in prices}
-    for item in context.Quote.GetAllItems():
-        part_num = item.PartNumber
-        if part_num in prices_dict:
-            price_data = prices_dict[part_num]
-            msrp = item.GetCustomField("DZ_MSRP_2")
-            dnet = item.GetCustomField("DZ_DNET_2")
-            award = item.GetCustomField("DZ_AWARD_2")
-            if msrp and dnet and award:
-                msrp.Value = price_data.MSRP
-                dnet.Value = price_data.DNET
+for item in context.Quote.GetAllItems():
+    part_num = item.PartNumber
+    if part_num not in prices_dict:
+        continue
+    price_data = prices_dict[part_num]
+    msrp = item.GetCustomField("DZ_MSRP_2")
+    dnet = item.GetCustomField("DZ_DNET_2")
+    award = item.GetCustomField("DZ_AWARD_2")
+    if not (msrp and dnet and award):
+        continue
+    msrp.Value = price_data.MSRP
+    dnet.Value = price_data.DNET
