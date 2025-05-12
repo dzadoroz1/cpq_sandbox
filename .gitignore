@@ -1,0 +1,3 @@
+*.json
+*.DS_Store
+.sap.cpq.script.plugin/

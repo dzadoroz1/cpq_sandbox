@@ -1,5 +1,7 @@
-# MainItem - DZ_AWARD_2
+# MainItem - Quantity
 from dz_module_for_calc import count_ext
 
 for item in context.AffectedItems:
+    item["DZ_Ext_MSRP"] = count_ext(item, "DZ_MSRP_2")
+    item["DZ_Ext_DNET"] = count_ext(item, "DZ_DNET_2")
     item["DZ_Ext_Award"] = count_ext(item, "DZ_AWARD_2")

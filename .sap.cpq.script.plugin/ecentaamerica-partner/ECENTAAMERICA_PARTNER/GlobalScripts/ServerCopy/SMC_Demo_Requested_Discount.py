@@ -1,1 +1,0 @@
-context.Quote.GetCustomField('Requested Discount').Value = "25%"

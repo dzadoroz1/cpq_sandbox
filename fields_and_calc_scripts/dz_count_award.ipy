@@ -1,0 +1,3 @@
+# MainItem - DZ_MSRP
+for item in context.AffectedItems:
+    item["DZ_AWARD_2"] = item["DZ_MSRP_2"] * (100 - item["DZ_MSRP"]) / 100
