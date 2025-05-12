@@ -2,5 +2,4 @@
 from dz_module_for_calc import count_ext
 
 for item in context.AffectedItems:
-    ext_cf = item.GetCustomField("DZ_Ext_MSRP")
-    ext_cf.Value = count_ext(item, "DZ_MSRP_2")
+    item["DZ_Ext_MSRP"] = count_ext(item, "DZ_MSRP_2")

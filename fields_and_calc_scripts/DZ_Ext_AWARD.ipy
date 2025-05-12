@@ -2,5 +2,4 @@
 from dz_module_for_calc import count_ext
 
 for item in context.AffectedItems:
-    ext_cf = item.GetCustomField("DZ_Ext_Award")
-    ext_cf.Value = count_ext(item, "DZ_AWARD_2")
+    item["DZ_Ext_Award"] = count_ext(item, "DZ_AWARD_2")
