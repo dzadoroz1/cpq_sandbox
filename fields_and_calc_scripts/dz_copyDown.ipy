@@ -1,0 +1,3 @@
+# MainItem - DZ_MSRP
+from dz_module_for_calc import get_DZ_CUSTOM_PRICE_LIST, copyDown
+copyDown(context.AffectedItems, "DZ_MSRP")
