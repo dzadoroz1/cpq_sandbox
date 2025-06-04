@@ -1,0 +1,8 @@
+# MainItem - DZ_DNET
+
+from dz_module_for_calc import check_non_negative
+
+if User.UserType.Name != "DZ_userType":
+    exit()
+for item in context.AffectedItems:
+    check_non_negative(item, "DZ_DNET", context.Quote)
